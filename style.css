@@ -103,6 +103,9 @@ section .content p{
   line-height: 150%;
 }
 
+section#contact a{
+  margin-left: 0;
+}
 .button{
   background: var(--primary-color);
   color:  #FFFFFF;
@@ -118,9 +121,10 @@ section .content p{
   border-radius: 4rem;
 
   margin-bottom: 6rem;
+  margin-left: 0;  
 
   display:flex;
-  align-items: center;
+  align-items:center;
   justify-content: center;
   gap: 1.6rem;
 
@@ -134,6 +138,14 @@ nav .close-menu{
 }
 
 /* set colors layout */
+
+div.empresas-logo ul li path[fill*="white"]{
+  fill:white;
+}
+
+div.empresas-logo ul li path{
+  fill: var(--primary-color);  
+}
 
 .button:hover{
   background-color: var(--brand-dark);
@@ -376,6 +388,10 @@ body.menu-expanded button path{
 
 /*****************slide****************************************/
 
+#testimonials.section{
+  padding-bottom: 0;
+}
+
 #testimonials{
   background:white;
 }
@@ -412,10 +428,6 @@ body.menu-expanded button path{
 #testimonials blockquote svg path{
   fill:var(--primary-color);
 
-}
-
-#testimonials blockquote img{
-  
 }
 
 #testimonials blockquote p{/*ajustando position das aspas*/
@@ -479,6 +491,24 @@ body.menu-expanded button path{
 div.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
   margin-bottom: -.8rem;
 }
+
+/* *****************Empresas********************* */
+
+div.empresas h4{
+  margin-top: 10rem;
+  margin-bottom: 4.8rem;
+}
+
+div.empresas-logo{ 
+  width: 100%;
+}
+
+div.empresas-logo ul li{
+  padding-bottom: 8rem;
+  
+}
+
+
 
 /* ***************services****************** */
 
@@ -971,6 +1001,32 @@ div.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.s
 div.container-swiper{
   width: 1000px;
 }
+
+/* *****************Empresas********************* */
+div.empresas-logo{
+ 
+  width: 100%;
+}
+div.empresas-logo ul {
+  display:inline-flex;
+  gap:9.9rem;
+  
+}
+
+div.empresas-logo ul li {
+  padding-bottom: 0;
+  
+}
+
+div.empresas-logo ul li{
+  margin-bottom: 16rem;
+}
+
+div.empresas h4{
+  margin-top: 10rem;
+  margin-bottom: 4.8rem;
+}
+
 
 /* ******************about******************* */
 
