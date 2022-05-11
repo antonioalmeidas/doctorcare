@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
       rel="stylesheet"
@@ -72,6 +73,7 @@
           <ul>
             <li><a onclick="closeMenu()" href="#home">Início</a></li>
             <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#testimonials">Depoimentos</a></li>
             <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
           </ul>
 
@@ -375,6 +377,139 @@
       </div>
     </section>
 
+<div class="wrapper-vw"">
+    <section class="section" id="testimonials">
+      <div class="container swiper">
+        <header>
+          <h4>Depoimentos</h4>
+          <h2 class="title">
+            O que os clientes dizem 
+            <br>
+            sobre o DoctorCare</h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5263 11.7111C17.5263 14.237 16.9539 16.5525 15.8092 18.6574C14.7039 20.7241 13.3618 22.5228 11.7829 24.0537C10.2039 25.6228 8.4671 27.0389 6.57237 28.3019C4.67763 29.5265 3.15789 30.4259 2.01316 31L0 27.613C1.61842 26.6944 3.15789 25.7568 4.61842 24.8C6.11842 23.8049 7.26316 22.8673 8.05263 21.987C9.11842 20.8389 9.9671 19.6525 10.5987 18.4278C11.2303 17.1648 11.625 15.5191 11.7829 13.4907H8.94079C6.45395 13.4907 4.51974 12.8784 3.13816 11.6537C1.75658 10.429 1.06579 8.72593 1.06579 6.54444C1.06579 4.97531 1.69737 3.50185 2.96053 2.12407C4.22368 0.708025 5.94079 0 8.11184 0C11.4671 0 13.875 1.09074 15.3355 3.27222C16.7961 5.41543 17.5263 8.2284 17.5263 11.7111Z" fill="#5F3DC4"/>
+                  <path d="M45 11.7111C45 14.237 44.4276 16.5525 43.2829 18.6574C42.1776 20.7241 40.8355 22.5228 39.2566 24.0537C37.6776 25.6228 35.9408 27.0389 34.0461 28.3019C32.1513 29.5265 30.6316 30.4259 29.4868 31L27.4737 27.613C29.0921 26.6944 30.6316 25.7568 32.0921 24.8C33.5921 23.8049 34.7368 22.8673 35.5263 21.987C36.5921 20.8389 37.4408 19.6525 38.0724 18.4278C38.7039 17.1648 39.0987 15.5191 39.2566 13.4907H36.4145C33.9276 13.4907 31.9934 12.8784 30.6118 11.6537C29.2303 10.429 28.5395 8.72593 28.5395 6.54444C28.5395 4.97531 29.1711 3.50185 30.4342 2.12407C31.6974 0.708025 33.4145 0 35.5855 0C38.9408 0 41.3487 1.09074 42.8092 3.27222C44.2697 5.41543 45 8.2284 45 11.7111Z" fill="#5F3DC4"/>
+                  </svg>                  
+                <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/79.jpg" alt="foto perfil de cliente da clinica doctorcare da sessao de depoimentos">
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5263 11.7111C17.5263 14.237 16.9539 16.5525 15.8092 18.6574C14.7039 20.7241 13.3618 22.5228 11.7829 24.0537C10.2039 25.6228 8.4671 27.0389 6.57237 28.3019C4.67763 29.5265 3.15789 30.4259 2.01316 31L0 27.613C1.61842 26.6944 3.15789 25.7568 4.61842 24.8C6.11842 23.8049 7.26316 22.8673 8.05263 21.987C9.11842 20.8389 9.9671 19.6525 10.5987 18.4278C11.2303 17.1648 11.625 15.5191 11.7829 13.4907H8.94079C6.45395 13.4907 4.51974 12.8784 3.13816 11.6537C1.75658 10.429 1.06579 8.72593 1.06579 6.54444C1.06579 4.97531 1.69737 3.50185 2.96053 2.12407C4.22368 0.708025 5.94079 0 8.11184 0C11.4671 0 13.875 1.09074 15.3355 3.27222C16.7961 5.41543 17.5263 8.2284 17.5263 11.7111Z" fill="#5F3DC4"/>
+                  <path d="M45 11.7111C45 14.237 44.4276 16.5525 43.2829 18.6574C42.1776 20.7241 40.8355 22.5228 39.2566 24.0537C37.6776 25.6228 35.9408 27.0389 34.0461 28.3019C32.1513 29.5265 30.6316 30.4259 29.4868 31L27.4737 27.613C29.0921 26.6944 30.6316 25.7568 32.0921 24.8C33.5921 23.8049 34.7368 22.8673 35.5263 21.987C36.5921 20.8389 37.4408 19.6525 38.0724 18.4278C38.7039 17.1648 39.0987 15.5191 39.2566 13.4907H36.4145C33.9276 13.4907 31.9934 12.8784 30.6118 11.6537C29.2303 10.429 28.5395 8.72593 28.5395 6.54444C28.5395 4.97531 29.1711 3.50185 30.4342 2.12407C31.6974 0.708025 33.4145 0 35.5855 0C38.9408 0 41.3487 1.09074 42.8092 3.27222C44.2697 5.41543 45 8.2284 45 11.7111Z" fill="#5F3DC4"/>
+                  </svg>                  
+                <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                </p>
+                <cite>
+                  <img src="assets/antonio.png" alt="foto perfil de cliente da clinica doctorcare da sessao de depoimentos">
+                  Antonio Almeida 
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5263 11.7111C17.5263 14.237 16.9539 16.5525 15.8092 18.6574C14.7039 20.7241 13.3618 22.5228 11.7829 24.0537C10.2039 25.6228 8.4671 27.0389 6.57237 28.3019C4.67763 29.5265 3.15789 30.4259 2.01316 31L0 27.613C1.61842 26.6944 3.15789 25.7568 4.61842 24.8C6.11842 23.8049 7.26316 22.8673 8.05263 21.987C9.11842 20.8389 9.9671 19.6525 10.5987 18.4278C11.2303 17.1648 11.625 15.5191 11.7829 13.4907H8.94079C6.45395 13.4907 4.51974 12.8784 3.13816 11.6537C1.75658 10.429 1.06579 8.72593 1.06579 6.54444C1.06579 4.97531 1.69737 3.50185 2.96053 2.12407C4.22368 0.708025 5.94079 0 8.11184 0C11.4671 0 13.875 1.09074 15.3355 3.27222C16.7961 5.41543 17.5263 8.2284 17.5263 11.7111Z" fill="#5F3DC4"/>
+                  <path d="M45 11.7111C45 14.237 44.4276 16.5525 43.2829 18.6574C42.1776 20.7241 40.8355 22.5228 39.2566 24.0537C37.6776 25.6228 35.9408 27.0389 34.0461 28.3019C32.1513 29.5265 30.6316 30.4259 29.4868 31L27.4737 27.613C29.0921 26.6944 30.6316 25.7568 32.0921 24.8C33.5921 23.8049 34.7368 22.8673 35.5263 21.987C36.5921 20.8389 37.4408 19.6525 38.0724 18.4278C38.7039 17.1648 39.0987 15.5191 39.2566 13.4907H36.4145C33.9276 13.4907 31.9934 12.8784 30.6118 11.6537C29.2303 10.429 28.5395 8.72593 28.5395 6.54444C28.5395 4.97531 29.1711 3.50185 30.4342 2.12407C31.6974 0.708025 33.4145 0 35.5855 0C38.9408 0 41.3487 1.09074 42.8092 3.27222C44.2697 5.41543 45 8.2284 45 11.7111Z" fill="#5F3DC4"/>
+                  </svg>                  
+                <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                </p>
+                <cite>
+                  <img src="assets/heitor.jpeg" alt="foto perfil de cliente da clinica doctorcare da sessao de depoimentos">
+                  Heitor Arrais
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5263 11.7111C17.5263 14.237 16.9539 16.5525 15.8092 18.6574C14.7039 20.7241 13.3618 22.5228 11.7829 24.0537C10.2039 25.6228 8.4671 27.0389 6.57237 28.3019C4.67763 29.5265 3.15789 30.4259 2.01316 31L0 27.613C1.61842 26.6944 3.15789 25.7568 4.61842 24.8C6.11842 23.8049 7.26316 22.8673 8.05263 21.987C9.11842 20.8389 9.9671 19.6525 10.5987 18.4278C11.2303 17.1648 11.625 15.5191 11.7829 13.4907H8.94079C6.45395 13.4907 4.51974 12.8784 3.13816 11.6537C1.75658 10.429 1.06579 8.72593 1.06579 6.54444C1.06579 4.97531 1.69737 3.50185 2.96053 2.12407C4.22368 0.708025 5.94079 0 8.11184 0C11.4671 0 13.875 1.09074 15.3355 3.27222C16.7961 5.41543 17.5263 8.2284 17.5263 11.7111Z" fill="#5F3DC4"/>
+                  <path d="M45 11.7111C45 14.237 44.4276 16.5525 43.2829 18.6574C42.1776 20.7241 40.8355 22.5228 39.2566 24.0537C37.6776 25.6228 35.9408 27.0389 34.0461 28.3019C32.1513 29.5265 30.6316 30.4259 29.4868 31L27.4737 27.613C29.0921 26.6944 30.6316 25.7568 32.0921 24.8C33.5921 23.8049 34.7368 22.8673 35.5263 21.987C36.5921 20.8389 37.4408 19.6525 38.0724 18.4278C38.7039 17.1648 39.0987 15.5191 39.2566 13.4907H36.4145C33.9276 13.4907 31.9934 12.8784 30.6118 11.6537C29.2303 10.429 28.5395 8.72593 28.5395 6.54444C28.5395 4.97531 29.1711 3.50185 30.4342 2.12407C31.6974 0.708025 33.4145 0 35.5855 0C38.9408 0 41.3487 1.09074 42.8092 3.27222C44.2697 5.41543 45 8.2284 45 11.7111Z" fill="#5F3DC4"/>
+                  </svg>                  
+                <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="">
+                  Cristina Ferreira
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5263 11.7111C17.5263 14.237 16.9539 16.5525 15.8092 18.6574C14.7039 20.7241 13.3618 22.5228 11.7829 24.0537C10.2039 25.6228 8.4671 27.0389 6.57237 28.3019C4.67763 29.5265 3.15789 30.4259 2.01316 31L0 27.613C1.61842 26.6944 3.15789 25.7568 4.61842 24.8C6.11842 23.8049 7.26316 22.8673 8.05263 21.987C9.11842 20.8389 9.9671 19.6525 10.5987 18.4278C11.2303 17.1648 11.625 15.5191 11.7829 13.4907H8.94079C6.45395 13.4907 4.51974 12.8784 3.13816 11.6537C1.75658 10.429 1.06579 8.72593 1.06579 6.54444C1.06579 4.97531 1.69737 3.50185 2.96053 2.12407C4.22368 0.708025 5.94079 0 8.11184 0C11.4671 0 13.875 1.09074 15.3355 3.27222C16.7961 5.41543 17.5263 8.2284 17.5263 11.7111Z" fill="#5F3DC4"/>
+                  <path d="M45 11.7111C45 14.237 44.4276 16.5525 43.2829 18.6574C42.1776 20.7241 40.8355 22.5228 39.2566 24.0537C37.6776 25.6228 35.9408 27.0389 34.0461 28.3019C32.1513 29.5265 30.6316 30.4259 29.4868 31L27.4737 27.613C29.0921 26.6944 30.6316 25.7568 32.0921 24.8C33.5921 23.8049 34.7368 22.8673 35.5263 21.987C36.5921 20.8389 37.4408 19.6525 38.0724 18.4278C38.7039 17.1648 39.0987 15.5191 39.2566 13.4907H36.4145C33.9276 13.4907 31.9934 12.8784 30.6118 11.6537C29.2303 10.429 28.5395 8.72593 28.5395 6.54444C28.5395 4.97531 29.1711 3.50185 30.4342 2.12407C31.6974 0.708025 33.4145 0 35.5855 0C38.9408 0 41.3487 1.09074 42.8092 3.27222C44.2697 5.41543 45 8.2284 45 11.7111Z" fill="#5F3DC4"/>
+                  </svg>                  
+                <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/86.jpg" alt="foto perfil de cliente da clinica doctorcare da sessao de depoimentos">
+                  Claudilene Santos
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5263 11.7111C17.5263 14.237 16.9539 16.5525 15.8092 18.6574C14.7039 20.7241 13.3618 22.5228 11.7829 24.0537C10.2039 25.6228 8.4671 27.0389 6.57237 28.3019C4.67763 29.5265 3.15789 30.4259 2.01316 31L0 27.613C1.61842 26.6944 3.15789 25.7568 4.61842 24.8C6.11842 23.8049 7.26316 22.8673 8.05263 21.987C9.11842 20.8389 9.9671 19.6525 10.5987 18.4278C11.2303 17.1648 11.625 15.5191 11.7829 13.4907H8.94079C6.45395 13.4907 4.51974 12.8784 3.13816 11.6537C1.75658 10.429 1.06579 8.72593 1.06579 6.54444C1.06579 4.97531 1.69737 3.50185 2.96053 2.12407C4.22368 0.708025 5.94079 0 8.11184 0C11.4671 0 13.875 1.09074 15.3355 3.27222C16.7961 5.41543 17.5263 8.2284 17.5263 11.7111Z" fill="#5F3DC4"/>
+                  <path d="M45 11.7111C45 14.237 44.4276 16.5525 43.2829 18.6574C42.1776 20.7241 40.8355 22.5228 39.2566 24.0537C37.6776 25.6228 35.9408 27.0389 34.0461 28.3019C32.1513 29.5265 30.6316 30.4259 29.4868 31L27.4737 27.613C29.0921 26.6944 30.6316 25.7568 32.0921 24.8C33.5921 23.8049 34.7368 22.8673 35.5263 21.987C36.5921 20.8389 37.4408 19.6525 38.0724 18.4278C38.7039 17.1648 39.0987 15.5191 39.2566 13.4907H36.4145C33.9276 13.4907 31.9934 12.8784 30.6118 11.6537C29.2303 10.429 28.5395 8.72593 28.5395 6.54444C28.5395 4.97531 29.1711 3.50185 30.4342 2.12407C31.6974 0.708025 33.4145 0 35.5855 0C38.9408 0 41.3487 1.09074 42.8092 3.27222C44.2697 5.41543 45 8.2284 45 11.7111Z" fill="#5F3DC4"/>
+                  </svg>                  
+                <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="foto perfil de cliente da clinica doctorcare da sessao de depoimentos">
+                  Alexandre Pascal
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5263 11.7111C17.5263 14.237 16.9539 16.5525 15.8092 18.6574C14.7039 20.7241 13.3618 22.5228 11.7829 24.0537C10.2039 25.6228 8.4671 27.0389 6.57237 28.3019C4.67763 29.5265 3.15789 30.4259 2.01316 31L0 27.613C1.61842 26.6944 3.15789 25.7568 4.61842 24.8C6.11842 23.8049 7.26316 22.8673 8.05263 21.987C9.11842 20.8389 9.9671 19.6525 10.5987 18.4278C11.2303 17.1648 11.625 15.5191 11.7829 13.4907H8.94079C6.45395 13.4907 4.51974 12.8784 3.13816 11.6537C1.75658 10.429 1.06579 8.72593 1.06579 6.54444C1.06579 4.97531 1.69737 3.50185 2.96053 2.12407C4.22368 0.708025 5.94079 0 8.11184 0C11.4671 0 13.875 1.09074 15.3355 3.27222C16.7961 5.41543 17.5263 8.2284 17.5263 11.7111Z" fill="#5F3DC4"/>
+                  <path d="M45 11.7111C45 14.237 44.4276 16.5525 43.2829 18.6574C42.1776 20.7241 40.8355 22.5228 39.2566 24.0537C37.6776 25.6228 35.9408 27.0389 34.0461 28.3019C32.1513 29.5265 30.6316 30.4259 29.4868 31L27.4737 27.613C29.0921 26.6944 30.6316 25.7568 32.0921 24.8C33.5921 23.8049 34.7368 22.8673 35.5263 21.987C36.5921 20.8389 37.4408 19.6525 38.0724 18.4278C38.7039 17.1648 39.0987 15.5191 39.2566 13.4907H36.4145C33.9276 13.4907 31.9934 12.8784 30.6118 11.6537C29.2303 10.429 28.5395 8.72593 28.5395 6.54444C28.5395 4.97531 29.1711 3.50185 30.4342 2.12407C31.6974 0.708025 33.4145 0 35.5855 0C38.9408 0 41.3487 1.09074 42.8092 3.27222C44.2697 5.41543 45 8.2284 45 11.7111Z" fill="#5F3DC4"/>
+                  </svg>                  
+                <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="foto perfil de cliente da clinica doctorcare da sessao de depoimentos">
+                  Claudio Ferrais
+                </cite>
+              </blockquote>
+            </div>
+           
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    </div>
+  
+
+
     <section id="about">
       <div class="wrapper">
         <div class="col-a">
@@ -391,7 +526,7 @@
           </div>
         </div>
           <div class="col-b">
-            <img src="assets/happy-doctor-holding-a-clipboard-with-patients.png" alt="Doutor feliz sergurando prancheta">
+            <img src="./assets/happy-doctor-holding-a-clipboard-with-patients.png" alt="Doutor feliz sergurando prancheta">
 
           </div>
       </div>
@@ -425,7 +560,7 @@
       </div>
 
           <div class="col-b">
-            <img src="assets/homem-negro-com-moleton-bege-mexendo-no-celular.png" alt="homem negro sentando no sofa da clinicacom moleton bege mexendo on celular ">
+            <img src="./assets/homem-negro-com-moleton-bege-mexendo-no-celular.png" alt="homem negro sentando no sofa da clinicacom moleton bege mexendo on celular ">
           </div>
         
       </div>
@@ -582,7 +717,9 @@
       <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
       </a>
+      
     <!-- scrollreveal -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
   </body>
