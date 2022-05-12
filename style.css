@@ -618,7 +618,7 @@ footer .social-links{
 
 #backToTopButton{
   position:fixed;
-  bottom: 1rem;
+  bottom: 9rem;
   right: 2.5rem;
 
   transform: translateY(100%);
