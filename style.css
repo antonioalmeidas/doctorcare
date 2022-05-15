@@ -7,8 +7,9 @@
 :root{
 
   --hue:170;
-
+  
   /* variaveis color  */
+
   --primary-color:hsl(var(--hue), 100%, 26%);
   --primary-color-light: hsl(148, 23%, 89%);
   --headline:hsl(210, 11%, 15%);
@@ -386,6 +387,36 @@ body.menu-expanded button path{
   line-height: 150%;
 }
 
+/* ******************cards-fostos*********************** */
+section.container-img{
+  background-color: var(--brand-beige);
+}
+section h2{
+  margin-bottom:2rem;
+  margin-inline: 2.4rem;
+}
+
+section p{
+  font-family: 'DM Sans';
+  color: var(--paragraph);
+  margin-bottom: 6.2rem;
+}
+
+section .cards-img{
+  display:flex;
+  flex-direction: column;
+  gap:3.2rem;
+  max-width: 30rem;
+
+  margin-inline:auto ;
+
+}
+
+section .card-img img{
+  border-radius:.5rem;
+}
+
+
 /*****************slide****************************************/
 
 #testimonials.section{
@@ -504,8 +535,12 @@ div.empresas-logo{
 }
 
 div.empresas-logo ul li{
-  padding-bottom: 8rem;
+  padding-bottom: 16rem;
   
+}
+
+div.empresas-logo ul li img{
+  max-width: 30rem;
 }
 
 
@@ -581,7 +616,7 @@ div.empresas-logo ul li{
   color: var(--paragraph);
 }
 
-/* ***********************footre**********************/
+/* ***********************footer**********************/
 
 footer{
   background-color: var(--primary-color);
@@ -618,14 +653,16 @@ footer .social-links{
 
 #backToTopButton{
   position:fixed;
-  bottom: 1.6rem;
-  left: 2.5rem;
-
+  bottom: 1rem;
+  left:2rem;
+  
   transform: translateY(100%);
   transition:200ms;
 
   visibility: hidden;
   opacity:0;
+
+  
 }
 
 #backToTopButton.show{
@@ -634,18 +671,6 @@ footer .social-links{
 
   transform: translateY(0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -880,6 +905,36 @@ section header h2{
   width: 30%;
   flex-grow:1;
 }
+/* ******************cards-fostos*********************** */
+section.container-img{
+  background-color: var(--brand-beige);
+ 
+}
+
+section h2{
+  margin-bottom:2rem;
+}
+
+section p{
+  margin-bottom:6.4rem;
+}
+
+section .cards-img{
+  display:inline-flex;
+  flex-direction:row;
+  gap: 3.5rem;
+
+ margin-inline: auto;
+  max-width: 105rem;
+
+  justify-content: center;
+  align-items: center;
+  
+}
+
+section .card-img img{
+  border-radius:.5rem;
+}
 
 /* *******************Depoimentos*********************** */
 div.wrapper-vw{
@@ -1009,7 +1064,7 @@ div.empresas-logo{
 }
 div.empresas-logo ul {
   display:inline-flex;
-  gap:9.9rem;
+  gap:9rem;
   
 }
 
@@ -1019,7 +1074,7 @@ div.empresas-logo ul li {
 }
 
 div.empresas-logo ul li{
-  margin-bottom: 16rem;
+  margin-bottom: 8rem;
 }
 
 div.empresas h4{
