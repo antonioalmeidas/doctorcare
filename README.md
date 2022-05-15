@@ -40,8 +40,11 @@ Utilitários
 
 DoctorCare é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas. 
 Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer, podendo ser adaptado para diversos 
-tipos de negócios como pizzaria, hamburgueria, lojas em geral.
+tipos de negócios como pizzaria, hamburgueria, lojas em geral. Toda construção da página foi pensada para melhor espericência do usuário, um 
+exemplo é a escolha do carrossel nos depoimentos diminuindo a scrolagem do usuário ao navegar em um dispositivo móvel.
 
+Não poderia me esquecer da parceria que fiz com o Maicon(nome no discord @devMaicon) onde fizemos a integração do Widget no projeto.
+Você pode visualizar o repositório do projeto do Maicon por esse [link](https://github.com/devmaicon85/widget). 
 
 ## 🔖 Layout
 
